@@ -1,0 +1,22 @@
+.completed-task {
+    text-decoration: line-through;
+    color: #6c757d; /* Muted color for completed tasks */
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Ensure the checkbox label behaves correctly */
+.form-check-label {
+    flex-grow: 1; /* Allow label to take available space */
+    cursor: pointer;
+    padding-left: 0.5rem; /* Space between checkbox and text */
+}
+
+.task-actions {
+    display: flex;
+    gap: 0.5rem; /* Space between action buttons */
+}
